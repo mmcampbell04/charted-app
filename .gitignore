@@ -1,5 +1,6 @@
 node_modules
-.env    
+.env 
+.env.local   
 .DS_Store
 .cursorrules
 venv/
@@ -22,4 +23,5 @@ logs/
 # IDE (keeping only what's not in frontend/.gitignore)
 .idea/
 
-
+# Database
+*.db
